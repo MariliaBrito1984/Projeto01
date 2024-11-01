@@ -1,0 +1,46 @@
+@media print {
+    span.material-symbols-outlined{
+        display: none;
+    }
+    .logo{display: none;}
+
+    body, html, h1, h2 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1em;
+            text-align: center;
+            margin: 10px;
+    }
+
+    div.icons{display: none;}   
+}
+
+
+
+
+/* Estilos para dispositivos menores */
+@media screen and (min-width: 768px) {
+    
+    span.material-symbols-outlined{
+        display: none;
+    }
+
+    li{
+        display: block;
+    }
+
+    .menu-bar{
+        flex-direction: row;
+    }
+
+    .menu-list{
+        display: flex;
+        
+    }
+
+    #itens{
+        opacity: 1;
+        max-height: 500px;        
+    
+    }
+
+}
